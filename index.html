@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Student Details Task</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>STUDENT DETAILS TASK</h1>
+
+    <div class="form-container">
+      <h3>STUDENT FORM</h3>
+      <table class="input-table">
+        <tr>
+          <td>Name</td>
+          <td><input type="text" id="name" /></td>
+        </tr>
+        <tr>
+          <td>Age</td>
+          <td><input type="number" id="age" /></td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <td>
+            <input type="radio" name="gender" value="Male" checked /> Male
+            <input type="radio" name="gender" value="Female" /> Female
+          </td>
+        </tr>
+        <tr>
+          <td>Course</td>
+          <td>
+            <select id="course">
+              <option value="JavaScript">JavaScript</option>
+              <option value="Python">Python</option>
+              <option value="HTML">HTML</option>
+              <option value="CSS">CSS</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>E-mail</td>
+          <td><input type="email" id="email" /></td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <button id="saveBtn" onclick="saveData()">Save</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <table id="dataTable" border="1">
+      <thead>
+        <tr>
+          <th>NAME</th>
+          <th>AGE</th>
+          <th>COURSE</th>
+          <th>GENDER</th>
+          <th>EMAIL</th>
+          <th>ACTION</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Data will appear here -->
+      </tbody>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
