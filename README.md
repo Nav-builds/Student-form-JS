@@ -1,6 +1,4 @@
-Here’s a clean and professional README file you can use for your project:
 
----
 
 # 📘 Student Form Web Application
 
@@ -103,8 +101,6 @@ Through this project, you can understand:
 ## 👨‍💻 Author 
 Navadeep
 
-Created as a practice project for learning **JavaScript and front-end development**.
 
----
 
-If you want, I can also tailor this README to match your exact form fields or add screenshots 👍
+
